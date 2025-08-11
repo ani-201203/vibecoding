@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to bottom, #0f2027, #2c5364);
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+#game-container {
+    width: 420px;
+    margin: 40px auto;
+    background: rgba(255,255,255,0.07);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+    padding: 16px 0 24px 0;
+    text-align: center;
+}
+#score {
+    color: #fff;
+    font-size: 1.4em;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+}
+#game-canvas {
+    background: #132743;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 12px auto;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+}
+#instructions {
+    color: #e0e0e0;
+    font-size: 1em;
+    margin-bottom: 8px;
+}
+#restart-btn {
+    padding: 8px 20px;
+    font-size: 1em;
+    background: #ffd700;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 8px;
+}
+#restart-btn:hover {
+    background: #ffe066;
+}
